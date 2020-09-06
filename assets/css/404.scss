@@ -1,0 +1,12 @@
+---
+---
+
+@import 'jekyll-theme-hacker';
+
+.container {
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
