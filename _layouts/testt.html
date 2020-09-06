@@ -4,26 +4,29 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/default.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="https://kit.fontawesome.com/55f0994afc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
 {% seo %}
   </head>
 
   <body>
-    <div class="fixed-bar">
-        <img src="{{ site.perfil_img }}" alt="">
 
-        <p class="name">{{ site.name }}</p>
-        <p class="desc">{{ site.perfil_desc }}</p>
-        <div class="links">
-            <div class="link"><i class="fab fa-github"> &nbsp;<a href="">Github</a></i></div>
-            <div class="link"><i class="fab fa-twitter-square"> &nbsp;<a href="">Twitter</a></i></div>
-            <div class="link"><i class="fab fa-youtube"> <a href="">Youtube</a></i></div>
-            <div class="link"><i class="far fa-envelope"> <a href="">Email</a></i></div>
-            <div class="link"><i class="fas fa-map-marker-alt"> &nbsp;<p>Brazil</p></i></div>
-        </div>
-    </div>
+    <header>
+      <div class="container">
+        <a id="a-title" href="{{ '/' | relative_url }}">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        </a>
+        <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+
+        <section id="downloads">
+          {% if site.show_downloads %}
+            <a href="{{ site.github.zip_url }}" class="btn">Download as .zip</a>
+            <a href="{{ site.github.tar_url }}" class="btn">Download as .tar.gz</a>
+          {% endif %}
+          <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View my GitHub</a>
+        </section>
+      </div>
+    </header>
 
     <div class="container">
       <section id="main_content">

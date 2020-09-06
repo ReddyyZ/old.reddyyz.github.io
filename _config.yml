@@ -29,6 +29,10 @@ url: "https://reddyyz.github.io" # the base hostname & protocol for your site, e
 twitter_username: jekyllrb
 github_username:  ReddyyZ
 
+perfil_img: "https://avatars3.githubusercontent.com/u/41487053?s=460&u=9a9013b086c204ed428cecfbdeee189b39d8b56c"
+name: "ReddyyZ"
+perfil_desc: "Student of Hacking"
+
 # Build settings
 theme: jekyll-theme-hacker
 plugins:
