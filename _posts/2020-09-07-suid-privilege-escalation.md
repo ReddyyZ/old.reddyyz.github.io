@@ -4,6 +4,7 @@ title:  "SUID Privilege Escalation"
 date:   2020-09-07 17:30:00 -0300
 categories: hacking
 author: "ReddyyZ"
+lang: en-US
 tags: [privilege escalation, linux]
 ---
 
