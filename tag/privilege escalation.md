@@ -1,6 +1,6 @@
 ---
 layout: tag
-tag: "nmap"
+tag: "privilege escalation"
 ---
 
 <h1>Posts with "{{page.tag}}" tag</h1>

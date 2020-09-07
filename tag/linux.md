@@ -1,6 +1,6 @@
 ---
 layout: tag
-tag: "nmap"
+tag: "linux"
 ---
 
 <h1>Posts with "{{page.tag}}" tag</h1>
