@@ -14,6 +14,7 @@
       'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
       })(window,document,'script','dataLayer','GTM-TQJN96Q');</script>
       <!-- End Google Tag Manager -->
+    <link rel="stylesheet" href="{{ '/assets/css/home.css?v=' }}">
 
 {% seo %}
   </head>
@@ -39,7 +40,30 @@
 
     <div class="container">
       <section id="main_content">
-        {{ content }}
+        <h1>Posts with "{{ page.title }}" tag</h1>
+          
+        <ul>
+        {% for post in page.posts %}
+        {% if post.tags contains page.title %}
+
+        <li class="post">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+            <br>
+            {% if post.description %}
+            {{ post.description }}
+            {% else %}
+            {{ post.excerpt }}
+            {% endif %}
+
+            <p>Author: {{post.author}}</p>
+            <p>Categories: {{post.categories | join: " - "}}</p>
+            <p>Tags: {{post.tags | join: " - "}}</p>
+            <p>Date: {{post.date | date: "%-d %B %Y"}}</p>
+        </li>
+
+        {% endif %}
+        {% endfor %}
+        </ul>
       </section>
     </div>
 

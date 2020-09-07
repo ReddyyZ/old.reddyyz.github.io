@@ -7,12 +7,18 @@ layout: default
 
 <link rel="stylesheet" href="{{ '/assets/css/home.css?v=' }}">
 
+<h1>Posts</h1>
+
 <ul>
     {% for post in site.posts %}
         <li class="post">
             <a href="{{ post.url }}">{{ post.title }}</a>
             <br>
+            {% if post.description %}
+            {{ post.description }}
+            {% else %}
             {{ post.excerpt }}
+            {% endif %}
 
             <p>Author: {{post.author}}</p>
             <p>Categories: {{post.categories | join: " - "}}</p>

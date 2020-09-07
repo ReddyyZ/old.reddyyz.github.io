@@ -38,6 +38,12 @@ body {
 .fixed-bar .name {
     font-size: 32px;
     margin: 15px;
+    text-decoration: none;
+}
+
+.fixed-bar .name:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .fixed-bar .desc {
@@ -111,4 +117,10 @@ i {
 
 a {
     color: #b5e853;
+}
+
+.tag {
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 4px;
 }

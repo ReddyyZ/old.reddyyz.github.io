@@ -36,6 +36,17 @@ perfil_desc: "Student of Hacking"
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
+  - jekyll-archives
+
+jekyll-archives:
+  enabled: all
+  layout: default
+  permalinks:
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+  layouts:
+    tag: tag
+    category: category
 
 # Exclude from processing.
 # The following items will not be processed, by default.
