@@ -15,7 +15,7 @@ jobs:
       - name: Generate Jekyll Archives
         uses: kannansuresh/jekyll-blog-archive-workflow@master
         with:
-          archive_url: "https://aneejian.com/archives/archivedata"
+          archive_url: "https://reddyyz.github.io/archives/archivedata"
           archive_folder_path: "_archives"
 
       - name: setup git config
