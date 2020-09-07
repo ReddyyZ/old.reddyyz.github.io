@@ -7,7 +7,7 @@ category: "hacking"
     
 <ul>
 {% for post in site.posts %}
-{% if post.tags contains page.category %}
+{% if post.categories contains page.category %}
 
 <li class="post">
     <a href="{{ post.url }}">{{ post.title }}</a>
