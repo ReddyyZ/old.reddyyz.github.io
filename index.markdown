@@ -21,7 +21,7 @@ layout: default
             {% endif %}
 
             <p>Author: {{post.author}}</p>
-            <p>Categories: {{post.categories | join: " - "}}</p>
+            <!-- <p>Categories: {{post.categories | join: " - "}}</p> -->
             <p>Tags: {{post.tags | join: " - "}}</p>
             <p>Date: {{post.date | date: "%-d %B %Y"}}</p>
         </li>

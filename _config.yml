@@ -48,10 +48,6 @@ plugins:
 #     tag: tag
 #     category: category
 
-collections:
-  archives:
-    output: true
-    permalink: /archives/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

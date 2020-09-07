@@ -2,9 +2,9 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2020-09-06 17:57:59 -0300
-categories: jekyll update
+categories: hacking
 author: "ReddyyZ"
-tags: test ada
+tags: hacking
 description: >-
   <p>DESCRIÇÂO TOP
   AADSAD</p>
