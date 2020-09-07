@@ -1,20 +1,75 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="cphsPqPwkYhfSICiunq-WX5Gs9t3nrTEuQBWkPoq5Co" />
+    <link rel="stylesheet" href="{{ '/assets/css/default.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://kit.fontawesome.com/55f0994afc.js" crossorigin="anonymous"></script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-TQJN96Q');</script>
+      <!-- End Google Tag Manager -->
+    <link rel="stylesheet" href="{{ '/assets/css/post.css?v=' | append: site.github.build_revision | relative_url }}">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:author" content="{{ page.author | default: site.author }}">
+    <meta property="article:tag" content="{{page.tags | join: ', '}}">
 
-<link rel="stylesheet" href="{{ '/assets/css/post.css?v=' | append: site.github.build_revision | relative_url }}">
+{% seo %}
+  </head>
 
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
-<h1>{{ page.title }}</h1>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQJN96Q"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      <!-- End Google Tag Manager (noscript) -->
+    <div class="fixed-bar">
+        <img src="{{ site.perfil_img }}" alt="">
 
-<p class="view">by {{ page.author | default: site.author }}</p>
+        <a class="name" href="/">{{ site.name }}</a>
+        <p class="desc">{{ site.perfil_desc }}</p>
+        <div class="links">
+            <div class="link"><i class="fab fa-github"> &nbsp;<a href="">Github</a></i></div>
+            <div class="link"><i class="fab fa-twitter-square"> &nbsp;<a href="">Twitter</a></i></div>
+            <div class="link"><i class="fab fa-youtube"> <a href="">Youtube</a></i></div>
+            <div class="link"><i class="far fa-envelope"> <a href="">Email</a></i></div>
+            <div class="link"><i class="fas fa-map-marker-alt"> &nbsp;<a>Brazil</a></i></div>
+        </div>
+    </div>
 
-{{content}}
+    <div class="container">
+      <section id="main_content">
+        <small>{{ page.date | date: "%-d %B %Y" }}</small>
+        <h1>{{ page.title }}</h1>
+        
+        <p class="view">by {{ page.author | default: site.author }}</p>
+        
+        {{content}}
+        
+        {% if page.tags %}
+          <small>Tags: {% for tag in page.tags %} <a class="tag" href="/tag/{{tag}}">{{ tag }}</a> {% endfor %}</small>
+        {% endif %}
+        <br>
+        {% if page.categories %}
+          <small>Categories: {% for category in page.categories %} <a class="tag" href="/category/{{category}}">{{ category }}</a> {% endfor %}</small>
+        {% endif %}
+      </section>
+    </div>
 
-{% if page.tags %}
-  <small>Tags: {% for tag in page.tags %} <a class="tag" href="/tag/{{tag}}">{{ tag }}</a> {% endfor %}</small>
-{% endif %}
-<br>
-{% if page.categories %}
-  <small>Categories: {% for category in page.categories %} <a class="tag" href="/category/{{category}}">{{ category }}</a> {% endfor %}</small>
-{% endif %}
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+  </body>
+</html>
