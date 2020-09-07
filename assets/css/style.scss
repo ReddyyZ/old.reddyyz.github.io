@@ -1,0 +1,15 @@
+---
+---
+
+@import "jekyll-theme-hacker";
+
+.tag {
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.tag:hover {
+    text-decoration: underline;
+}
