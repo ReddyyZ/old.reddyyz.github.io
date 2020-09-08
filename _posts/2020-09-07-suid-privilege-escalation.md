@@ -6,6 +6,7 @@ categories: hacking
 author: "ReddyyZ"
 lang: pt-BR
 tags: [privilege escalation, linux]
+reading_time: 1 minute
 ---
 
 Privilege escalation é um tipo de vulnerabilidade na qual o atacante consegue elevar seus privilégios para root ou algum outro usuário.<br>

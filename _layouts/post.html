@@ -23,12 +23,18 @@
     {% if page.section %}
     <meta property="article:section" content="{{page.section}}">
     {% endif %}
-
+    <script src="{{ '/assets/js/calculate-reading-time.js' }}"></script>
 {% seo %}
   </head>
 
   <body>
     <!-- Google Tag Manager (noscript) -->
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+          new ReadingTime(200);
+        })
+
+    </script>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQJN96Q"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <!-- End Google Tag Manager (noscript) -->
