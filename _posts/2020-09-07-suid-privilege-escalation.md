@@ -86,7 +86,7 @@ Esses são todos os arquivos com permissão SUID que o dono é o root.
 Olhando esses arquivos um que chama atenção é o `/usr/bin/python2.7`.<br>
 Vamos olhar se existe algum exploit conhecido para o python no [GTFOBins](https://gtfobins.github.io/gtfobins/python/#suid), site com várias formas de privilege escalation.
 
-![GTFOBins Python](/assets/images/gtfobins-python.png)
+![GTFOBins Python](/assets/images/gtfobins-python.PNG)
 
 E achamos uma forma de escalar nossos privilégios.<br>
 Vamos executar o comando `python -c 'import os; os.execl("/bin/sh", "sh", "-p")'`
