@@ -39,6 +39,17 @@ plugins:
   - jekyll-feed
 #   - jekyll-archives
 
+categorias: [
+    "hacking"
+]
+
+tags_: [
+    "linux",
+    "nmap",
+    "privilege escalation",
+    "test"
+]
+
 # jekyll-archives:
 #   enabled: all
 #   layout: default
