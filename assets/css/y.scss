@@ -1,0 +1,23 @@
+---
+---
+
+.container section {
+    margin: 50px;
+}
+
+.list {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    column-gap: normal;
+}
+
+.list a {
+    border: 1px solid white;
+    padding: 3px;
+    border-radius: 4px;
+    text-decoration: none;
+    width: fit-content;
+    height: min-content;
+    margin: 10px;
+}
