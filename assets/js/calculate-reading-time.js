@@ -20,4 +20,5 @@ function ReadingTime(words_per_minute){
     minutes = parseInt(minutes) + y;
 
     console.log("Reading time:", minutes, minutes == 1 ? "minute" : "minutes");
+    return minutes;
 }

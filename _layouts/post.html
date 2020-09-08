@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | site.lang | default: 'en-US' }}">
+<html lang="{{ page.lang | default: 'en-US' }}">
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -31,7 +31,10 @@
     <!-- Google Tag Manager (noscript) -->
     <script>
         document.addEventListener('DOMContentLoaded', (event) => {
-          new ReadingTime(200);
+          const minutes_to_read = ReadingTime(200);
+          
+          var s = document.getElementsByClassName("reading_time");
+          s[0].innerHTML = `Reading time: ${minutes_to_read} ${minutes_to_read == 1 ? "minute" : "minutes"}`
         })
 
     </script>
@@ -54,7 +57,8 @@
 
     <div class="container">
       <section id="main_content">
-        <small>{{ page.date | date: "%-d %B %Y" }}</small>
+        <small>{{ page.date | date: "%-d %B %Y" }}</small><br>
+        <small class="reading_time"></small>
         <h1>{{ page.title }}</h1>
         
         <p class="view">by {{ page.author | default: site.author }}</p>
@@ -68,6 +72,7 @@
         {% if page.categories %}
           <small>Categories: {% for category in page.categories %} <a class="tag" href="/category/{{category}}">{{ category }}</a> {% endfor %}</small>
         {% endif %}
+        <br>
       </section>
     </div>
 
