@@ -19,6 +19,9 @@
     <meta property="og:type" content="article">
     <meta property="article:author" content="{{ page.author | default: site.author }}">
     <meta property="article:tag" content="{{page.tags | join: ', '}}">
+    {% if page.section %}
+    <meta property="article:section" content="{{page.section}}">
+    {% endif %}
 
 {% seo %}
   </head>
