@@ -15,6 +15,6 @@ https://reddyyz.github.io/tag/john%20the%20ripper
 https://reddyyz.github.io/tag/password%20cracking
 https://reddyyz.github.io/tag/cracking
 https://reddyyz.github.io/tag/privilege%20escalation
-https://reddyyz.github.io/tag/index
+https://reddyyz.github.io/tag/
 https://reddyyz.github.io/category/hacking
-https://reddyyz.github.io/category/index
+https://reddyyz.github.io/category/
