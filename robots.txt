@@ -1,0 +1,2 @@
+Allow: *
+Sitemap: https://reddyyz.github.io/sitemap.txt
