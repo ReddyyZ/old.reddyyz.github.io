@@ -37,6 +37,7 @@ lang: pt-BR
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 #   - jekyll-archives
 
 categorias: [
