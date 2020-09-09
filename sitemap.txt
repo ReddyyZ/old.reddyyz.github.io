@@ -1,4 +1,5 @@
 https://reddyyz.github.io/index.html
+https://reddyyz.github.io/
 https://reddyyz.github.io/hacking/2020/09/09/quebrando-senhas-de-arquivos-zip.html
 https://reddyyz.github.io/hacking/2020/09/07/suid-privilege-escalation.html
 https://reddyyz.github.io/tag/linux.html
@@ -9,3 +10,11 @@ https://reddyyz.github.io/tag/privilege%20escalation.html
 https://reddyyz.github.io/tag/index.html
 https://reddyyz.github.io/category/hacking.html
 https://reddyyz.github.io/category/index.html
+https://reddyyz.github.io/tag/linux
+https://reddyyz.github.io/tag/john%20the%20ripper
+https://reddyyz.github.io/tag/password%20cracking
+https://reddyyz.github.io/tag/cracking
+https://reddyyz.github.io/tag/privilege%20escalation
+https://reddyyz.github.io/tag/index
+https://reddyyz.github.io/category/hacking
+https://reddyyz.github.io/category/index
