@@ -48,9 +48,13 @@ tags_: [
     "linux",
     "nmap",
     "privilege escalation",
-    "test"
-]
+    "cracking",
+    "password cracking",
+    "john the ripper"]
 
+include: [
+    "_pages"
+]
 # jekyll-archives:
 #   enabled: all
 #   layout: default
