@@ -25,6 +25,7 @@ Caso esteja no debian ou no ubuntu, use o seguinte comando:
 ```sh
 root@fsociety~# apt-get install john
 ```
+<button class="copy" onClick="copy_to_clip2('apt-get install john')">Copiar comando</button>
 
 Com tudo instalado, já podemos começar!
 
@@ -36,6 +37,7 @@ Vamos lá! Vamos executar o seguinte comando para transformá-lo em hash:
 ```sh
 root@fsociety~# zip2john secreto.zip > hash.txt
 ```
+<button class="copy" onClick="copy_to_clip2('zip2john secreto.zip > hash.txt')">Copiar comando</button>
 
 E agora o hash do arquivo está salvo em `hash.txt`, agora já podemos quebrá-lo!
 
@@ -45,6 +47,7 @@ Agora que temos tudo que precisamos, vamos quebrar o hash usando o seguinte coma
 ```sh
 root@fsociety~# john hash.txt --wordlist=rockyou.txt
 ```
+<button class="copy" onClick="copy_to_clip2('john hash.txt --wordlist=rockyou.txt')">Copiar comando</button>
 
 E então vamos aguardar algum tempo (que pode variar entre segundos e horas dependendo da senha e do seu computador) e caso a senha esteja na wordlist, iremos encontrar a senha do arquivo zip!
 

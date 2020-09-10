@@ -5,3 +5,18 @@
     margin: 20px;
     width: 90% !important;
 }
+
+.copy {
+    border: 1px solid white;
+    color: #b5e853;
+    padding: 3px;
+    border-radius: 4px;
+    text-decoration: none;
+    background: none;
+    transition: color 0.7s;
+}
+
+.copy:hover {
+    cursor: pointer;
+    color: #bdf358;
+}
