@@ -22,6 +22,7 @@ tag: "password cracking"
     <p>Categories: {% for category in post.categories %} <a class="tag" href="/category/{{category}}">{{ category }}</a> {% endfor %}</p>
     <p>Tags: {% for tag in post.tags %} <a class="tag" href="/tag/{{tag}}">{{ tag }}</a> {% endfor %}</p>
     <p>Date: {{post.date | date: "%-d %B %Y"}}</p>
+    <p>Reading time: {{post.reading_time}}</p>
 </li>
 
 {% endif %}
