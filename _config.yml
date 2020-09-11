@@ -45,12 +45,13 @@ categorias: [
 ]
 
 tags_: [
-    "linux",
-    "nmap",
-    "privilege escalation",
-    "cracking",
-    "password cracking",
-    "john the ripper"]
+  "linux",
+  "nmap",
+  "privilege escalation",
+  "cracking",
+  "password cracking",
+  "john the ripper"
+]
 
 include: [
     "_pages"
