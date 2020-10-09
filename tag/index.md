@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Tags list"
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/y.css' }}">

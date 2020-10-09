@@ -1,6 +1,7 @@
 ---
 layout: tag
 tag: "file permissions"
+title: "File Permissions Tag"
 ---
 
 <h1>Posts with "{{page.tag}}" tag</h1>

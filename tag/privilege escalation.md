@@ -1,6 +1,7 @@
 ---
 layout: tag
 tag: "privilege escalation"
+title: "Privilege Escalation tag"
 ---
 
 <h1>Posts with "{{page.tag}}" tag</h1>

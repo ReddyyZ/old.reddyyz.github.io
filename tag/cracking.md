@@ -1,6 +1,7 @@
 ---
 layout: tag
 tag: "cracking"
+title: "Cracking Tag"
 ---
 
 <h1>Posts with "{{page.tag}}" tag</h1>

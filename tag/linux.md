@@ -1,6 +1,7 @@
 ---
 layout: tag
 tag: "linux"
+title: "Linux tag"
 ---
 
 <h1>Posts with "{{page.tag}}" tag</h1>

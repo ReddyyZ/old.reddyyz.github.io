@@ -1,6 +1,7 @@
 ---
 layout: tag
 tag: "john the ripper"
+title: "John the Ripper tag"
 ---
 
 <h1>Posts with "{{page.tag}}" tag</h1>
