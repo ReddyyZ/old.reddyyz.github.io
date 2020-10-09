@@ -71,6 +71,8 @@ Agora vamos modificar as permissões do arquivo:
 ```sh
 chmod 660 test.txt
 ```
+<button class="copy" onClick="copy_to_clip2('chmod 660 test.txt')">Copiar comando</button>
+
 
 Executando o comando e lendo novamente as permissões do arquivo temos o seguinte resultado:
 
