@@ -104,7 +104,7 @@ i {
 ::-webkit-scrollbar {
     width: 0.7vw;
 }
-  
+
 /* Track */
 ::-webkit-scrollbar-track {
     /* background: #59626e; */
@@ -128,4 +128,8 @@ a {
 
 .tag:hover {
     text-decoration: underline;
+}
+
+.pre-none {
+    margin: 0;
 }
