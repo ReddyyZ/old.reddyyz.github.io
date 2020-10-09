@@ -1,6 +1,7 @@
 ---
 layout: tag
 category: "hacking"
+title: "Hacking Category"
 ---
 
 <h1>Posts with "{{page.category}}" category</h1>

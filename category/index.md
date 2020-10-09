@@ -1,5 +1,6 @@
 ---
 layout: default
+title: "Categories list"
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/y.css' }}">

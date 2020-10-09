@@ -1,6 +1,7 @@
 ---
 layout: tag
 category: "linux"
+title: "Linux Category"
 ---
 
 <h1>Posts with "{{page.category}}" category</h1>
