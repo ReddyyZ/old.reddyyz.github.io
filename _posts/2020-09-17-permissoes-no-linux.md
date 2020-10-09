@@ -23,11 +23,11 @@ Nesse artigo você irá aprender como funcionam as permissões dos arquivos no L
 As permissões do arquivo são divididas em 3 partes:
 
 ```sh
--rw-r--r--
- |   |  |
- |   |  Outros
- |   |
- |   Grupo
+-rw-  r--  r--
+ |     |    |
+ |     |   Outros
+ |     |
+ |    Grupo
  Dono
 ```
 
