@@ -11,8 +11,8 @@ body {
 
 .fixed-bar {
     background-color: #151515 url(../images/bkg.png) 0 0;
-    width: 300px;
-    min-width: 300px;
+    width: 25%;
+    // min-width: 300px;
     height: 100%;
 
     display: flex;
@@ -29,14 +29,14 @@ body {
 }
 
 .fixed-bar img {
-    width: 200px;
-    height: 200px;
+    width: 70%;
+    height: 25%;
 
     border-radius: 100%;
 }
 
 .fixed-bar .name {
-    font-size: 32px;
+    font-size: 2.2vw;
     margin: 15px;
     text-decoration: none;
 }
@@ -47,7 +47,7 @@ body {
 }
 
 .fixed-bar .desc {
-    margin: 12px;
+    margin: 1vw;
 }
 
 .fixed-bar .links {
@@ -82,7 +82,7 @@ body {
 i {
     font-size: 20px;
 
-    margin: 2%;
+    margin: 2.5%;
 }
 
 .container {
