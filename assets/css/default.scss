@@ -11,8 +11,9 @@ body {
 
 .fixed-bar {
     background-color: #151515 url(../images/bkg.png) 0 0;
-    width: 25%;
-    min-width: 180px;
+    width: 350px;
+    min-width: none;
+    max-width: none;
     height: 100%;
 
     display: flex;
@@ -29,14 +30,14 @@ body {
 }
 
 .fixed-bar img {
-    width: 70%;
-    height: 25%;
+    width: 180px;
+    height: 180px;
 
     border-radius: 100%;
 }
 
 .fixed-bar .name {
-    font-size: 4vh;
+    font-size: 32px;
     margin: 15px;
     text-decoration: none;
 }
@@ -47,8 +48,8 @@ body {
 }
 
 .fixed-bar .desc {
-    margin: 0.7vh;
-    font-size: 2.4vh;
+    margin: 6px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -86,13 +87,13 @@ body {
 
 .fixed-bar .links .link {
     margin: 0.57vh !important;
-    height: 3vh;
+    height: 22px;
 }
 
 i {
     // font-size: 20px;
-    margin: 0 !important;
-    font-size: 2.5vh !important;
+    // margin: 0 !important;
+    font-size: 22px !important;
 }
 
 .container {
@@ -177,7 +178,7 @@ header .lnks {
     margin: 0;
 }
 
-@media (max-width: 600px){
+@media (max-width: 823px){
     .fixed-bar{
         visibility: hidden;
         position: absolute;
