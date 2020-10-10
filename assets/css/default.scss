@@ -47,16 +47,20 @@ body {
 }
 
 .fixed-bar .desc {
-    margin: 2vh;
+    margin: 0.7vh;
+    font-size: 2.4vh;
     text-align: center;
 }
 
 .fixed-bar .links {
-    margin-top: 32px;
+    margin-top: 3.2vh;
 
     width: 180px;
     display: flex;
     flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .fixed-bar .links .link a, .fixed-bar .links .link p {
@@ -80,11 +84,15 @@ body {
     text-decoration: underline;
 }
 
+.fixed-bar .links .link {
+    margin: 0.57vh !important;
+    height: 3vh;
+}
+
 i {
     // font-size: 20px;
-    font-size: 2.5vh;
-
-    margin: 2.5%;
+    margin: 0 !important;
+    font-size: 2.5vh !important;
 }
 
 .container {
