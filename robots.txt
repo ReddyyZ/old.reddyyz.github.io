@@ -1,7 +1,7 @@
 User-Agent: *
-Allow: *
+Sitemap: https://reddyyz.github.io/sitemap.xml
+
 Disallow: /google657e48cb74cb4914.html
 Disallow: /tag/
 Disallow: /category/
 Disallow: /portfolio
-Sitemap: https://reddyyz.github.io/sitemap.xml
