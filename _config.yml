@@ -43,7 +43,8 @@ plugins:
 #   - jekyll-archives
 
 categorias: [
-    "hacking"
+    "hacking",
+    "linux"
 ]
 
 tags_: [
@@ -52,7 +53,9 @@ tags_: [
   "privilege escalation",
   "cracking",
   "password cracking",
-  "john the ripper"
+  "john the ripper",
+  "file permissions",
+  "hash cracking",
 ]
 
 include: [
