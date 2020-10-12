@@ -1,6 +1,8 @@
 ---
 ---
 
+.container { margin-top: 0; }
+
 .container section {
     margin: 20px;
     width: 90% !important;
@@ -23,8 +25,8 @@
     color: #bdf358;
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px), (min-height: 890px){
     .container {
-        margin-top: 110px;
+        margin-top: 90px;
     }
 }
