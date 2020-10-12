@@ -83,7 +83,7 @@
         {% endif %}
         <br>
         {% if page.categories %}
-          <small>Categories: {% for category in page.categories %} <a class="tag" href="/category/{{category}}">{{ category }}</a> {% endfor %}</small>
+          <small class="categories-small">Categories: {% for category in page.categories %} <a class="tag" href="/category/{{category}}">{{ category }}</a> {% endfor %}</small>
         {% endif %}
         <br>
       </section>
