@@ -1,13 +1,19 @@
 ---
 ---
 
-.container { margin-top: 0; }
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.container { margin-top: 0; height: 100%;}
 
 .container section {
     margin: 20px;
     width: 90% !important;
     margin-top: 10px;
     height: 100%;
+    border: 0;
 }
 
 .copy {
