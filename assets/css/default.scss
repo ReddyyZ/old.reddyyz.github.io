@@ -47,9 +47,17 @@ body {
     cursor: pointer;
 }
 
-.fixed-bar .desc {
+.fixed-bar .desc-div .desc {
     margin: 6px;
     font-size: 18px;
+    text-align: center;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+}
+
+.fixed-bar .desc-div .site-desc {
+    font-size: 18px;
+    padding-top: 5px;
     text-align: center;
 }
 
