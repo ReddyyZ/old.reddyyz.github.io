@@ -16,6 +16,7 @@
       <!-- End Google Tag Manager -->
     <link rel="apple-touch-icon" sizes="114x114" href="touch-icon-ipad.png" />
     <link rel="apple-touch-icon" sizes="57x57" href="touch-icon-iphone.png" />
+    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5f874cb10a629300122e0533&product=inline-share-buttons" async="async"></script>
 {% seo %}
   </head>
 
@@ -56,7 +57,11 @@
       <section id="main_content">
         {{ content }}
       </section>
+      <div class="footer">
+        <div class="sharethis-inline-share-buttons"></div>
+      </div>
     </div>
+
 
     {% if site.google_analytics %}
       <script>

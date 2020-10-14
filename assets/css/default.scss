@@ -109,6 +109,9 @@ i {
 
 .container section {
     width: 100%;
+    border-bottom: 2px solid #ffffff;
+    margin: 0 !important;
+    padding: 2vw;
 }
 
 
@@ -176,6 +179,10 @@ header .lnks {
     display: grid;
     grid-template-columns: auto auto auto;
     margin: 0;
+}
+
+.container .footer div {
+    margin: 10px;
 }
 
 @media (max-width: 823px){
