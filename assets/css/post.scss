@@ -4,6 +4,8 @@
 body {
     height: 100vh;
     width: 100vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .container { margin-top: 0; height: 100%;}
@@ -38,5 +40,73 @@ body {
 @media (max-width: 600px), (min-height: 890px){
     .container {
         margin-top: 90px;
+    }
+}
+
+.footer-2 {
+    position: absolute;
+    // width: 70%;
+    height: 50px;
+    bottom: 0;
+    left: 52%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.footer-2 button {
+    background: transparent;
+    border: 0;
+    outline: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-2 button:hover {
+    cursor: pointer;
+    // opacity: 55%;
+}
+
+.footer-2 img {
+    opacity: 60%;
+    transition: opacity 0.3s;
+}
+
+.footer-2 p {
+    color: #FFF;
+    opacity: 100%;
+    margin-left: 2px;
+    opacity: 80%;
+    transition: opacity 0.3s;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.footer-2 p:hover {
+    opacity: 100%;
+}
+
+.footer-2 img:hover {
+    opacity: 85%;
+}
+
+@media (max-width: 823px){
+    .footer-2 {
+        margin-bottom: 2px;
+        height: 30px;
+        left: 42%;
+    }
+
+    .footer-2 img {
+        width: 25px;
+        height: 30px;
+    }
+
+    .footer-2 p {
+        font-size: 16px;
     }
 }

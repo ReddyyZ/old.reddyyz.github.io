@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="cphsPqPwkYhfSICiunq-WX5Gs9t3nrTEuQBWkPoq5Co" />
     <script src="https://kit.fontawesome.com/55f0994afc.js" crossorigin="anonymous"></script>
+    <script src="/assets/js/clap.js"></script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -123,6 +124,9 @@
         <div class="footer" style="border-top: 2px solid #ffffff; padding-top: 5px; margin-top: 22px;">
           <div class="sharethis-inline-share-buttons"></div>
         </div>
+        <div class="footer-2">
+          <button title="Aplaudir" onclick="clap('{{page.title}}');window.location.reload(false);"><img src="/assets/images/clap.png" width="40px" height="50px" alt="clap"><p class="claps"></p></button>
+        </div>
       </section>
     </div>
 
@@ -136,5 +140,18 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+
+    <script>
+      var x = async () => {
+        var y = document.getElementsByClassName("claps")[0];
+        var claps = await getClap();
+        claps = JSON.parse(claps);
+
+        const page_claps = claps["{{page.title}}"];
+        console.log(page_claps);
+        y.innerHTML = (page_claps ? page_claps : "0") + ' claps';
+      }
+      x();
+    </script>
   </body>
 </html>
