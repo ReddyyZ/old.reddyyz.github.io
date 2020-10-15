@@ -7,6 +7,7 @@ author: "ReddyyZ"
 lang: pt-BR
 tags: [brute force, login page, python, password cracking]
 reading_time: 8 minutes
+description: Neste artigo vamos aprender como criar um script de Brute Force multi-threadead, semelhante ao THC Hydra.
 ---
 
 Neste artigo vamos aprender como criar um script de Brute Force multi-threadead, semelhante ao THC Hydra.
