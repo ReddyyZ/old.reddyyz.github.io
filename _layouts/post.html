@@ -17,9 +17,6 @@
     <link rel="stylesheet" href="{{ '/assets/css/default.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/post.css?v=' | append: site.github.build_revision | relative_url }}">
     
-    {% if page.image %}
-    <meta property="og:image" content="{{page.image}}">
-    {% endif %}
     <meta property="og:type" content="article">
     <meta property="article:author" content="{{ page.author | default: site.author }}">
     <meta property="article:tag" content="{{page.tags | join: ', '}}">
@@ -49,6 +46,12 @@
 
     <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5f874cb10a629300122e0533&product=inline-share-buttons" async="async"></script>
 {% seo %}
+
+    <meta property="twitter:image" content="{{page.image}}">
+    <meta property="twitter:title" content="{{page.title}}">
+    <meta property="twitter:description" content="{{page.description}}">
+    <meta property="image" content="{{page.image}}">
+
   </head>
 
   <body>
