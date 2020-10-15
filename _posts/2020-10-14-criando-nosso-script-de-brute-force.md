@@ -228,7 +228,7 @@ E nosso script está pronto! [Código completo](https://gist.github.com/ReddyyZ/
 
 Demonstração:
 
-<script id="asciicast-09MHqwM3gvR0HCS3U04kBeNwu" src="https://asciinema.org/a/09MHqwM3gvR0HCS3U04kBeNwu.js" async></script>
+<script id="asciicast-365627" src="https://asciinema.org/a/365627.js" async></script>
 
 ---
 
