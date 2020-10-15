@@ -8,6 +8,7 @@ lang: pt-BR
 tags: [linux, file permissions]
 reading_time: 2 minutes
 description: Nesse artigo você irá aprender como funcionam as permissões dos arquivos no Linux, como usar o chmod e administrar o seu servidor Linux.
+image: https://reddyyz.github.io/assets/images/permissions-codes.png
 ---
 
 Nesse artigo você irá aprender como funcionam as permissões dos arquivos no Linux, como usar o chmod e administrar o seu servidor Linux.

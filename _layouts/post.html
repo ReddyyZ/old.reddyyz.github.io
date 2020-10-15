@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="{{ '/assets/css/default.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/post.css?v=' | append: site.github.build_revision | relative_url }}">
     
+    {% if page.image %}
+    <meta property="og:image" content="{{page.image}}">
+    {% endif %}
     <meta property="og:type" content="article">
     <meta property="article:author" content="{{ page.author | default: site.author }}">
     <meta property="article:tag" content="{{page.tags | join: ', '}}">

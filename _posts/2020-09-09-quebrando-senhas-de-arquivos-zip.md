@@ -10,6 +10,7 @@ reading_time: 2 minutes
 description: >-
     Arquivos zips podem conter senhas, que com uma boa wordlist e o kit certo de ferramentas você pode quebrá-las e conseguir acesso aos arquivos protegidos!<br>
     Neste artigo vamos aprender como crackear um arquivo zip!
+image: https://reddyyz.github.io/assets/images/quebrando_zip.png
 ---
 
 Arquivos zips podem conter senhas, que com uma boa wordlist e o kit certo de ferramentas você pode quebrá-las e conseguir acesso aos arquivos protegidos!<br>
