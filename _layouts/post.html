@@ -145,6 +145,7 @@
       var x = async () => {
         var y = document.getElementsByClassName("claps")[0];
         var claps = await getClap();
+        console.log(claps);
         claps = JSON.parse(claps);
 
         let page_claps = claps["{{page.title}}"];
