@@ -61,4 +61,4 @@ E então vamos aguardar algum tempo (que pode variar entre segundos e horas depe
 
 Obrigado por ler até aqui! Caso tenha alguma dúvida entre no meu servidor do discord e pergunte!<br>
 [Discord Server](https://discord.gg/v5d3PZ9)
-<iframe src="https://discordapp.com/widget?id=704882848364101763&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe><br>
+<br>
