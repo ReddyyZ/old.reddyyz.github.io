@@ -147,7 +147,7 @@
         var claps = await getClap();
         claps = JSON.parse(claps);
 
-        const page_claps = claps["{{page.title}}"];
+        const page_claps = claps["{{page.title}}"].length;
         console.log(page_claps);
         y.innerHTML = (page_claps ? page_claps : "0") + ' claps';
       }
