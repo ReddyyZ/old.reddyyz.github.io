@@ -8,5 +8,7 @@ async function getClap(){
 }
 
 async function clap(article){
-    return await fetch('https://claps-reddyyz.000webhostapp.com/like.php?article='+article);
+    return await fetch('https://claps-reddyyz.000webhostapp.com/like.php?article='+article,{
+        mode: 'no-cors'
+    });
 }
