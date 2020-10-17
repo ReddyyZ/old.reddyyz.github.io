@@ -3,7 +3,10 @@ const proxyurl = "https://cors-anywhere.herokuapp.com/";
 async function getClap(){
 
     var x = await fetch(proxyurl + 'http://claps-reddyyz.000webhostapp.com/', {
-        mode: "no-cors"
+        mode: "no-cors",
+        headers: {
+            "X-Requested-With": "XMLHttpRequest"
+        }
     });
 
     return await x.text();
