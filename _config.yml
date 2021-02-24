@@ -59,7 +59,8 @@ tags_: [
 ]
 
 include: [
-    "_pages"
+    "_pages",
+    ".well-known"
 ]
 # jekyll-archives:
 #   enabled: all
