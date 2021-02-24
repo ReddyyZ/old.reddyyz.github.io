@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: reddyyz.github.io
+Token: 4dc16a815e1b4a9a99ec6a7e7c21543e85a0833de630d1e9655aa75d8b9740d2
