@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://reddyyyz.github.io/</loc>
+        <lastmod>2022-03-19T19:41:36.636Z</lastmod>
+    </url>
+    
+        <url>
+            <loc>https://reddyyyz.github.io/sobre-mim</loc>
+            <lastmod>2022-03-19T19:41:36.637Z</lastmod>
+        </url>
+        
+    
+        <url>
+            <loc>https://reddyyyz.github.io/blog/criando-nosso-proprio-script-de-brute-force</loc>
+            <lastmod>2022-03-19T19:41:36.637Z</lastmod>
+        </url>
+        
+        <url>
+            <loc>https://reddyyyz.github.io/blog/hacking-por-onde-comecar</loc>
+            <lastmod>2022-03-19T19:41:36.637Z</lastmod>
+        </url>
+        
+        <url>
+            <loc>https://reddyyyz.github.io/blog/hashes-o-que-sao-e-como-quebra-las</loc>
+            <lastmod>2022-03-19T19:41:36.637Z</lastmod>
+        </url>
+        
+        <url>
+            <loc>https://reddyyyz.github.io/blog/quebrando-senhas-de-arquivos-zip</loc>
+            <lastmod>2022-03-19T19:41:36.637Z</lastmod>
+        </url>
+        
+        <url>
+            <loc>https://reddyyyz.github.io/blog/suid-privilege-escalation</loc>
+            <lastmod>2022-03-19T19:41:36.637Z</lastmod>
+        </url>
+        
+</urlset>
