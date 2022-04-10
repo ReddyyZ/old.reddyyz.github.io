@@ -1,0 +1,5 @@
+https://reddyyz.github.io/blog/hashes-o-que-sao-e-como-quebra-las
+https://reddyyyz.github.io/blog/hacking-por-onde-comecar
+https://reddyyyz.github.io/blog/quebrando-senhas-de-arquivos-zip
+https://reddyyyz.github.io/blog/suid-privilege-escalation
+https://reddyyyz.github.io/blog/criando-nosso-proprio-script-de-brute-force
