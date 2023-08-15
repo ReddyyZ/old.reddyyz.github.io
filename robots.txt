@@ -1,5 +1,4 @@
 Sitemap: https://reddyyz.github.io/sitemap.xml
-Sitemap: https://reddyyz.github.io/oldsitemap.xml
 
 User-agent: *
 Allow: /*
